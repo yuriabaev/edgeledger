@@ -1,0 +1,39 @@
+.text-primary {
+    color: #28a745;
+}
+
+/*  buttons */
+.btn {
+    color: white;
+    background-color: #28a745;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9
+}
+
+.flex-items {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.flex-items > div {
+    padding: 20px;
+}
+ /* flex-columns */
+.flex-columns .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%
+}
+
+.flex-columns .column{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
